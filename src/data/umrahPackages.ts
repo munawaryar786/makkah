@@ -46,7 +46,7 @@ export const umrahPackages: UmrahPackage[] = [
     startingPrice: "From PKR 264,500",
     inclusions: commonInclusions,
     notes: ["11 Jul window marked sold out in source data.", "Baggage: 23kg / 46kg / 7kg", ...childNotes],
-    image: "https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?auto=format&fit=crop&w=1400&q=80"
+    image: "https://upload.wikimedia.org/wikipedia/commons/8/89/The_Ka%27ba%2C_Great_Mosque_of_Mecca%2C_Saudi_Arabia_%284%29.jpg"
   },
   {
     slug: "lahore-saudia-21-days-warda-waqar",
@@ -141,7 +141,7 @@ export const umrahPackages: UmrahPackage[] = [
     startingPrice: "From PKR 250,000",
     inclusions: ["Umrah Visa", "Emirates Air Ticket", "Hotel Accommodation", "Transport in Saudi Arabia", "Best Hotels", "Best Locations", "Best Service"],
     notes: ["Baggage: 23kg / 46kg / 7kg", ...childNotes],
-    image: "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&w=1400&q=80"
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Masjid_al-Haram%2C_Tawaf_20092012_1130PM_%288008466944%29.jpg/1280px-Masjid_al-Haram%2C_Tawaf_20092012_1130PM_%288008466944%29.jpg"
   }
 ];
 
@@ -161,3 +161,4 @@ export const facilities = [
   "Airport Transfers",
   "Best Rates / Consultation"
 ];
+

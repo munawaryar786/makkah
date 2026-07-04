@@ -18,7 +18,7 @@ export const seasonalOffers: UmrahPackage[] = [
     startingPrice: "From PKR 257,995",
     inclusions: ["Baggage 20 + 20 + 7 kg", "Bumper Offer", "Makkah & Madina Ziyarat Included", "Visa Included", "Hotel Support"],
     notes: ["Seasonal offer rates require final confirmation before booking."],
-    image: "https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?auto=format&fit=crop&w=1400&q=80"
+    image: "https://upload.wikimedia.org/wikipedia/commons/8/89/The_Ka%27ba%2C_Great_Mosque_of_Mecca%2C_Saudi_Arabia_%284%29.jpg"
   },
   {
     slug: "seasonal-airblue-21-days-1448h",
@@ -40,3 +40,4 @@ export const seasonalOffers: UmrahPackage[] = [
     image: "https://images.unsplash.com/photo-1564769625905-50e93615e769?auto=format&fit=crop&w=1400&q=80"
   }
 ];
+
