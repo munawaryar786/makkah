@@ -1,33 +1,41 @@
-export const navItems = [
+﻿export const navItems = [
   { label: "Home", href: "/" },
   { label: "About", href: "/about" },
   {
-    label: "Packages",
+    label: "Umrah Packages",
     href: "/umrah-packages",
     children: [
-      { label: "Umrah Packages", href: "/umrah-packages" },
-      { label: "Hajj Packages", href: "/hajj-packages" },
-      { label: "Group Packages", href: "/group-packages" },
-      { label: "Shuttle Packages", href: "/umrah-packages#shuttle" },
-      { label: "Featured Offers", href: "/offers/ramadan-umrah-consultation" }
+      { label: "Lahore Departures", href: "/umrah-packages?city=lahore" },
+      { label: "Multan Departures", href: "/umrah-packages?city=multan" },
+      { label: "Sialkot Departures", href: "/group-umrah" },
+      { label: "Seasonal Offers", href: "/seasonal-offers" },
+      { label: "Group Umrah", href: "/group-umrah" }
     ]
   },
-  { label: "Hajj 2027", href: "/hajj-2027" },
+  { label: "Group Umrah", href: "/group-umrah" },
+  {
+    label: "Tours",
+    href: "/tours",
+    children: [
+      { label: "Baku Tour", href: "/tours/baku" },
+      { label: "Uzbekistan Tour", href: "/tours/uzbekistan" },
+      { label: "International Tours", href: "/tours" }
+    ]
+  },
   {
     label: "Services",
     href: "/services",
     children: [
-      { label: "Tickets", href: "/travel-services" },
-      { label: "Visit Visa Assistance", href: "/visa-services" },
-      { label: "Hotels", href: "/hotels-transport" },
-      { label: "Private Transport", href: "/hotels-transport#transport" },
-      { label: "Ziarat", href: "/services#ziarat" },
-      { label: "24/7 Assistance", href: "/contact" }
+      { label: "Visa Support", href: "/visa-ticketing" },
+      { label: "Air Ticketing", href: "/visa-ticketing#ticketing" },
+      { label: "Hotel Booking", href: "/hotels-transport" },
+      { label: "Transport", href: "/hotels-transport#transport" },
+      { label: "Ziyarat Support", href: "/services#ziyarat" }
     ]
   },
-  { label: "Trust", href: "/registrations" },
+  { label: "Trust", href: "/trust" },
   { label: "Gallery", href: "/gallery" },
-  { label: "Testimonials", href: "/testimonials" },
+  { label: "FAQ", href: "/faq" },
   { label: "Blog", href: "/blog" },
   { label: "Contact", href: "/contact" }
 ];
