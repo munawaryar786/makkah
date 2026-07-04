@@ -11,7 +11,7 @@
   uan: "0304-1111-289",
   primaryMobile: "0334-1642303",
   phones: ["0304-1111-289", "0334-1642303", "+92 304 1111289", "+92 334 1642303", "0326-8485731", "0326-8485732", "0307-1642303", "061-2114617"],
-  whatsapp: "03041111289",
+  whatsapp: "03341642303",
   email: "info@deedaremakkahtravel.com",
   legacyEmail: "deedaremakkahtravels@yahoo.com",
   officeHours: "Office hours placeholder - confirm before publishing",
@@ -21,7 +21,7 @@
     facebook: "#",
     instagram: "#",
     tiktok: "#",
-    whatsapp: "https://wa.me/923041111289"
+    whatsapp: "https://wa.me/923341642303"
   },
   trustBadges: [
     "License No LHR9500",

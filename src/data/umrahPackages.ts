@@ -43,7 +43,7 @@ export const umrahPackages: UmrahPackage[] = [
     madinahHotel: "Fundaq Fursan Hotel (Shuttle)",
     distanceInfo: "Shuttle hotel combination",
     prices: { sharing: "264,500", quad: "269,500", triple: "277,000", double: "293,000" },
-    startingPrice: "PKR 264,500",
+    startingPrice: "From PKR 264,500",
     inclusions: commonInclusions,
     notes: ["11 Jul window marked sold out in source data.", "Baggage: 23kg / 46kg / 7kg", ...childNotes],
     image: "https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?auto=format&fit=crop&w=1400&q=80"
@@ -62,7 +62,7 @@ export const umrahPackages: UmrahPackage[] = [
     madinahHotel: "Fundaq Waqar Hotel (400m)",
     distanceInfo: "Makkah 700m / Madinah 400m",
     prices: { sharing: "277,000", quad: "290,000", triple: "308,000", double: "343,000" },
-    startingPrice: "PKR 277,000",
+    startingPrice: "From PKR 277,000",
     inclusions: commonInclusions,
     notes: ["Rates vary by availability and exchange rate.", ...childNotes],
     image: "https://images.unsplash.com/photo-1564769625905-50e93615e769?auto=format&fit=crop&w=1400&q=80"
@@ -81,7 +81,7 @@ export const umrahPackages: UmrahPackage[] = [
     madinahHotel: "Ruk Al Daudia Hotel, Quba Road (900m)",
     distanceInfo: "Makkah 1200m / Madinah 900m",
     prices: { sharing: "265,000", quad: "273,000", triple: "285,000", double: "309,000" },
-    startingPrice: "PKR 265,000",
+    startingPrice: "From PKR 265,000",
     inclusions: commonInclusions,
     notes: ["Baggage: 23kg / 46kg / 7kg", ...childNotes],
     image: "https://images.unsplash.com/photo-1512632578888-169bbbc64f33?auto=format&fit=crop&w=1400&q=80"
@@ -100,7 +100,7 @@ export const umrahPackages: UmrahPackage[] = [
     madinahHotel: "Wasam Misk / Fundaq Fursan (Shuttle)",
     distanceInfo: "17 nights Makkah / 10 nights Madinah",
     prices: { sharing: "267,000", quad: "275,000", triple: "288,000", double: "313,000" },
-    startingPrice: "PKR 267,000",
+    startingPrice: "From PKR 267,000",
     inclusions: [...commonInclusions, "20kg Checked + 7kg Cabin", "Best Rates / Best Services"],
     notes: ["Terminal HJ, aircraft A320 in source schedule."],
     image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1400&q=80"
@@ -119,7 +119,7 @@ export const umrahPackages: UmrahPackage[] = [
     madinahHotel: "Nuzul Al Karar Al Zahbi (450-500m)",
     distanceInfo: "Makkah 300-350m / Madinah 450-500m",
     prices: { sharing: "301,000", quad: "317,000", triple: "344,000", double: "398,000" },
-    startingPrice: "PKR 301,000",
+    startingPrice: "From PKR 301,000",
     inclusions: [...commonInclusions, "20kg Checked + 7kg Cabin"],
     notes: ["Best for travelers prioritizing hotel distance."],
     image: "https://images.unsplash.com/photo-1578894381163-e72c17f2d45f?auto=format&fit=crop&w=1400&q=80"
@@ -138,7 +138,7 @@ export const umrahPackages: UmrahPackage[] = [
     madinahHotel: "Wasam Misk / Fundaq Fursan (Shuttle)",
     distanceInfo: "Group shuttle arrangement",
     prices: { sharing: "250,000", quad: "256,000", triple: "266,000", double: "287,000" },
-    startingPrice: "PKR 250,000",
+    startingPrice: "From PKR 250,000",
     inclusions: ["Umrah Visa", "Emirates Air Ticket", "Hotel Accommodation", "Transport in Saudi Arabia", "Best Hotels", "Best Locations", "Best Service"],
     notes: ["Baggage: 23kg / 46kg / 7kg", ...childNotes],
     image: "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&w=1400&q=80"

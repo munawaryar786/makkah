@@ -1,17 +1,38 @@
-﻿import { Bus, Hotel } from "lucide-react";
-import { HotelDistanceGuide, RoomTypes } from "@/components/sections/InfoBlocks";
-import { CTASection } from "@/components/sections/CTASection";
+﻿import { CTASection } from "@/components/sections/CTASection";
 import { PageHero } from "@/components/shared/PageHero";
 import { SectionContainer, SectionHeading } from "@/components/shared/Section";
+import { ServiceCard } from "@/components/cards/ServiceCard";
+import { images } from "@/data/images";
 
 export const metadata = { title: "Hotels & Transport" };
+
+const hotelCards = [
+  { title: "Makkah Hotels", description: "Options near Haram or shuttle routes.", image: images.hotels.makkah, href: "/contact" },
+  { title: "Madinah Hotels", description: "Comfortable stays around key routes.", image: images.hotels.madinah, href: "/contact" },
+  { title: "Family Rooms", description: "Room guidance for families and groups.", image: images.hotels.familyRoom, href: "/contact" },
+  { title: "Shuttle Hotels", description: "Value stays with planned movement.", image: images.hotels.shuttleHotel, href: "/contact" }
+];
+
+const transportCards = [
+  { title: "Airport Transfer", description: "Arrival and return transfer planning.", image: images.transport.airport, href: "/contact" },
+  { title: "Shuttle Service", description: "Shared transport for package travelers.", image: images.transport.shuttle, href: "/contact" },
+  { title: "Private Transport", description: "Private car support for families.", image: images.transport.private, href: "/contact" },
+  { title: "Ziyarat Transport", description: "Local movement for Ziyarat visits.", image: images.transport.ziyarat, href: "/contact" }
+];
 
 export default function HotelsTransportPage() {
   return (
     <>
-      <PageHero eyebrow="Hotels & Transport" title="Hotel Distance, Shuttle Service and Transport Support" text="Compare hotel distance, room sharing, shuttle options, airport transfers and Saudi transport support before booking." image="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1600&q=80" />
-      <SectionContainer><SectionHeading eyebrow="Options" title="Hotel and Transport Services" /><div className="grid gap-5 md:grid-cols-2"><article className="rounded-lg border border-gold/20 bg-white p-6 shadow-premium"><Hotel className="mb-4 h-8 w-8 text-gold" /><h3 className="font-display text-2xl font-bold">Hotel Booking</h3><p className="mt-3 leading-8 text-charcoal/75">Makkah, Madinah, Baku and Uzbekistan hotel support with distance and comfort guidance.</p></article><article id="transport" className="rounded-lg border border-gold/20 bg-white p-6 shadow-premium"><Bus className="mb-4 h-8 w-8 text-gold" /><h3 className="font-display text-2xl font-bold">Transport Support</h3><p className="mt-3 leading-8 text-charcoal/75">Saudi transport, airport transfer and group movement planning.</p></article></div></SectionContainer>
-      <HotelDistanceGuide /><RoomTypes /><CTASection title="Ask About Hotel Distance Before Booking" />
+      <PageHero eyebrow="Hotels & Transport" title="Hotel Booking and Transport Support" text="Real hotel, room and transport options shown visually for faster decisions." image={images.hotels.makkah} />
+      <SectionContainer>
+        <SectionHeading eyebrow="Hotel Booking" title="Makkah and Madinah Hotel Options" />
+        <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-4">{hotelCards.map((item) => <ServiceCard key={item.title} {...item} />)}</div>
+      </SectionContainer>
+      <SectionContainer id="transport" dark>
+        <SectionHeading eyebrow="Transport" title="Transfers, Shuttle and Private Movement" light />
+        <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-4">{transportCards.map((item) => <ServiceCard key={item.title} {...item} />)}</div>
+      </SectionContainer>
+      <CTASection title="Ask About Hotel Distance Before Booking" />
     </>
   );
 }

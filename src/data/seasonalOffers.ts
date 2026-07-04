@@ -15,7 +15,7 @@ export const seasonalOffers: UmrahPackage[] = [
     madinahHotel: "Fundaq Fursan / Wisam Al Misk (Shuttle)",
     distanceInfo: "Shuttle hotel combination",
     prices: { sharing: "257,995", quad: "264,463", triple: "275,243", double: "296,803" },
-    startingPrice: "PKR 257,995",
+    startingPrice: "From PKR 257,995",
     inclusions: ["Baggage 20 + 20 + 7 kg", "Bumper Offer", "Makkah & Madina Ziyarat Included", "Visa Included", "Hotel Support"],
     notes: ["Seasonal offer rates require final confirmation before booking."],
     image: "https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?auto=format&fit=crop&w=1400&q=80"
@@ -34,7 +34,7 @@ export const seasonalOffers: UmrahPackage[] = [
     madinahHotel: "Fundaq Fursan Hotel (Shuttle)",
     distanceInfo: "Shuttle hotel combination",
     prices: { sharing: "245,500", quad: "250,500", triple: "258,000", double: "274,000" },
-    startingPrice: "PKR 245,500",
+    startingPrice: "From PKR 245,500",
     inclusions: ["Baggage 20+20+7kg", "Bumper Offer", "Makkah & Madina Ziyarat Included", "Visa Included", "Hotel Support"],
     notes: ["Selected windows include returns on 26 Jul, 06 Aug, 14 Aug, 17 Aug and 21 Aug."],
     image: "https://images.unsplash.com/photo-1564769625905-50e93615e769?auto=format&fit=crop&w=1400&q=80"

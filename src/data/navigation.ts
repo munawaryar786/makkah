@@ -7,12 +7,10 @@
     children: [
       { label: "Lahore Departures", href: "/umrah-packages?city=lahore" },
       { label: "Multan Departures", href: "/umrah-packages?city=multan" },
-      { label: "Sialkot Departures", href: "/group-umrah" },
-      { label: "Seasonal Offers", href: "/seasonal-offers" },
-      { label: "Group Umrah", href: "/group-umrah" }
+      { label: "Sialkot Group Umrah", href: "/group-umrah" },
+      { label: "Seasonal Offers", href: "/seasonal-offers" }
     ]
   },
-  { label: "Group Umrah", href: "/group-umrah" },
   {
     label: "Tours",
     href: "/tours",
@@ -26,16 +24,14 @@
     label: "Services",
     href: "/services",
     children: [
-      { label: "Visa Support", href: "/visa-ticketing" },
-      { label: "Air Ticketing", href: "/visa-ticketing#ticketing" },
-      { label: "Hotel Booking", href: "/hotels-transport" },
-      { label: "Transport", href: "/hotels-transport#transport" },
-      { label: "Ziyarat Support", href: "/services#ziyarat" }
+      { label: "Visa & Ticketing", href: "/visa-ticketing" },
+      { label: "Hotels & Transport", href: "/hotels-transport" },
+      { label: "Group Umrah", href: "/group-umrah" },
+      { label: "Seasonal Offers", href: "/seasonal-offers" }
     ]
   },
   { label: "Trust", href: "/trust" },
   { label: "Gallery", href: "/gallery" },
-  { label: "FAQ", href: "/faq" },
   { label: "Blog", href: "/blog" },
   { label: "Contact", href: "/contact" }
 ];

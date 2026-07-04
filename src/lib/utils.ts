@@ -6,7 +6,7 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 export function whatsappUrl(message: string) {
-  return `https://wa.me/923041111289?text=${encodeURIComponent(message)}`;
+  return `https://wa.me/923341642303?text=${encodeURIComponent(message)}`;
 }
 
 export function slugify(value: string) {
