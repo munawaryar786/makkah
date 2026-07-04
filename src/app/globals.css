@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --gold: #d8a72f;
+  --ink: #0b0b0d;
+  --ivory: #fff8ec;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--ivory);
+  color: #171719;
+  font-family: Inter, Manrope, "Segoe UI", Arial, sans-serif;
+}
+
+::selection {
+  background: rgba(216, 167, 47, 0.32);
+}
+
+a {
+  text-decoration: none;
+}
+
+.premium-pattern {
+  background-image:
+    linear-gradient(rgba(255, 248, 236, 0.94), rgba(255, 248, 236, 0.94)),
+    radial-gradient(circle at 1px 1px, rgba(216, 167, 47, 0.18) 1px, transparent 0);
+  background-size: auto, 28px 28px;
+}
+
+.dark-pattern {
+  background:
+    linear-gradient(135deg, rgba(216, 167, 47, 0.14), transparent 28%),
+    radial-gradient(circle at 25% 10%, rgba(216, 167, 47, 0.14), transparent 26%),
+    #0b0b0d;
+}
+
+.gold-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(216, 167, 47, 0.75), transparent);
+}
+
+.focus-ring {
+  @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 focus-visible:ring-offset-ivory;
+}
